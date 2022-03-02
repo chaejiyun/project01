@@ -140,7 +140,7 @@ nav {
     left: 35%;
     opacity: 5%;
     top: 0;
-    background-image: url(./img/patten.png);
+    background-image: url(../img/patten.png);
 }
 
 .con {
@@ -237,19 +237,19 @@ strong {
 }
 
 .con2>ul>li:nth-child(1) .bg {
-    background-image: url(./img/sec1-bg1.jpg);
+    background-image: url(../img/sec1-bg1.jpg);
 }
 
 .con2>ul>li:nth-child(2) .bg {
-    background-image: url(./img/sec1-bg2.jpg);
+    background-image: url(../img/sec1-bg2.jpg);
 }
 
 .con2>ul>li:nth-child(3) .bg {
-    background-image: url(./img/sec1-bg3.jpg);
+    background-image: url(../img/sec1-bg3.jpg);
 }
 
 .con2>ul>li:nth-child(4) .bg {
-    background-image: url(./img/sec1-bg5.jpg);
+    background-image: url(../img/sec1-bg5.jpg);
 }
 
 .con2>ul>li:nth-child(3) p {
@@ -318,7 +318,7 @@ strong {
 
 /* section2 코딩시작 */
 .sec2 {
-    background-image: url(./img/sec2_bg.jpg);
+    background-image: url(../img/sec2_bg.jpg);
     width: 100%;
     height: 100vh;
     opacity: 90%;
@@ -432,32 +432,32 @@ h3>strong {
 }
 
 .con5>ul>li:nth-child(1)::after {
-    background-image: url(./img/shape1.png);
+    background-image: url(../img/shape1.png);
     top: 38%;
     left: -2%;
 }
 
 .con5>ul>li:nth-child(2)::after {
-    background-image: url(./img/shape2.png);
+    background-image: url(../img/shape2.png);
     top: -10%;
     left: -10%;
 
 }
 
 .con5>ul>li:nth-child(3)::after {
-    background-image: url(./img/shape3.png);
+    background-image: url(../img/shape3.png);
     top: 35%;
     left: -5%;
 }
 
 .con5>ul>li:nth-child(4)::after {
-    background-image: url(./img/shape4.png);
+    background-image: url(../img/shape4.png);
     top: -15%;
     left: -10%;
 }
 
 .con5>ul>li:nth-child(5)::after {
-    background-image: url(./img/shape5.png);
+    background-image: url(../img/shape5.png);
     top: 30%;
     left: -10%;
 
@@ -802,20 +802,20 @@ footer {
     }
 
     .con2>ul>li:nth-child(1) .bg {
-        background-image: url(./img/sec1-bg1-1400.jpg);
+        background-image: url(../img/sec1-bg1-1400.jpg);
         background-size: cover;
     }
 
     .con2>ul>li:nth-child(2) .bg {
-        background-image: url(./img/sec1-bg2.jpg);
+        background-image: url(../img/sec1-bg2.jpg);
     }
 
     .con2>ul>li:nth-child(3) .bg {
-        background-image: url(./img/sec1-bg3.jpg);
+        background-image: url(../img/sec1-bg3.jpg);
     }
 
     .con2>ul>li:nth-child(4) .bg {
-        background-image: url(./img/sec1-bg5.jpg);
+        background-image: url(../img/sec1-bg5.jpg);
     }
 
     .con2>ul>li:nth-child(3) p {
@@ -1157,19 +1157,19 @@ footer {
     }
 
     .con2>ul>li:nth-child(1) .bg {
-        background-image: url(./img/sec1-bg1\ -\ 1000.jpg);
+        background-image: url(../img/sec1-bg1\ -\ 1000.jpg);
     }
 
     .con2>ul>li:nth-child(2) .bg {
-        background-image: url(./img/sec1-bg2.jpg);
+        background-image: url(../img/sec1-bg2.jpg);
     }
 
     .con2>ul>li:nth-child(3) .bg {
-        background-image: url(./img/sec1-bg3.jpg);
+        background-image: url(../img/sec1-bg3.jpg);
     }
 
     .con2>ul>li:nth-child(4) .bg {
-        background-image: url(./img/sec1-bg5.jpg);
+        background-image: url(../img/sec1-bg5.jpg);
     }
 }
 
