@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./common/common copy.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+        integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(function () {
+            $('.card').click(function () {
+                $('.card').removeClass('on')
+                $(this).addClass('on')
+            })
+
+            $('.ham').click(function () {
+                $('.gnb').removeClass('on')
+                $(this).addClass('on')
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+
+<!--
+4.8  	0.48
+7.81	0.78
+12.5 	1.25
+20  	2
+32	    3.2
+51.2	5.12
+81.9	8.19 -->
+            <div class="inner hd">
+                <h1><img src="./img/logo.png" alt="logo"></h1>
+                <nav>
+                    <ul class="gnb">
+                        <li><a href="#">공차이야기</a></li>
+                        <li><a href="#">메뉴</a></li>
+                        <li><a href="#">매장</a></li>
+                        <li><a href="#">소식</a></li>
+                    </ul>
+                </nav>
+                <div class="shop">
+                    <a href="#"><img src="./img/shop.png" alt="shop">
+                        <i class="fas fa-store"></i>
+                        <p>가맹점</p>
+                    </a>
+                </div>
+                <div class="ham"><i class="fas fa-bars"></i></div>
+            </div>
+        </header>
+        <section class="sec1">
+            <div class="con">
+                <div class="con1">
+                    <h2>공들여<br>맛있는 차<br><strong>공차</strong></h2>
+                    <p>티백이나 가루가 아닌 잎만 골라<br>
+                        1도 1초도 어기지 않고 차 마다<br>
+                        정성으로 우려 최강의 부드러움를 선사합니다.</p>
+
+                </div>
+                <div class="swiper con2">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="bg">
+                                <div><img src="./img/black tea.png" alt="tea1"></div>
+                                <div class="tea0">
+                                    <p>1/4</p>
+                                    <P>블랙티</P>
+                                    <p>진한 향과 감미로운 맛을<br>
+                                        느낄 수있는 공차의 대표티</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="bg">
+                                <div><img src="./img/얼그레이.png" alt="tea2"></div>
+                                <div class="tea0">
+                                    <p>2/4</p>
+                                    <P>얼그레이티</P>
+                                    <p> 향긋한 베르가못향이 가미된<br>
+                                        풍미가 깊은 공차의 얼그레이티</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="bg">
+                                <div><img src="./img/우롱티.png" alt="tea3"></div>
+                                <div class="tea0">
+                                    <p>3/4</p>
+                                    <P>우롱티</P>
+                                    <p>묵직하고 깊은 풍미를 간직한<br>
+                                        고소한 공차의 우롱티</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="bg">
+                                <div><img src="./img/자스민티.png" alt="tea4"></div>
+                                <div class="tea0">
+                                    <p>4/4</p>
+                                    <P>자스민 그린티</P>
+                                    <p>향긋한 자스민 꽃잎을 함께<br>
+                                        우려내 더욱 달콤한 공차의 그린티</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <div class="bt">
+                        <button class="swiper-button-next s1_next"></button>
+                        <button class="swiper-button-prev s1_prev"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="con3">
+                <h3><strong>공차</strong>이야기</h3>
+                <p>#홍차 &nbsp; #밀크티 &nbsp; #만드는 방법 &nbsp; #타피오카 펄</p>
+            </div>
+            <div class="swiper con4">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="wrap">
+                            <p>고르기</p>
+                            <p>세상의 차가 빠름을 담을 때,<br>
+                                공차는 느림을 담습니다.<br>
+                                티백이나 가루를 감자하고,<br>
+                                황실에 바치던 잎차를 고집합니다.</p>
+                            <img src="./img/con4_tea1.jpg" alt="tea">
+                        </div>
+                        <div class="m">
+                            <img src="./img/m_sec2_1.png" alt="1">
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="wrap">
+                            <p>더하기</p>
+                            <p>세상의 茶가 틀 안을 향할때, <br>
+                                공차는 틀 밖을 향합니다.<br>
+                                고정관념에 갇히지 않고<br>
+                                끝없이 새로운 맛을 창조합니다.</p>
+                            <img src="./img/con4_tea3.jpg" alt="tea">
+                        </div>
+                        <div class="m">
+                            <img src="./img/m_sec2_2.png" alt="1">
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="wrap">
+                            <p>우리기</p>
+                            <p>세상의 차가 간편함을 품을 때, <br>
+                                공차는 1도 1초도 어기지 않고 <br>
+                                차마다의 황금비율로 우려냅니다.
+                            </p>
+                            <img src="./img/con4_tea2.jpg" alt="tea">
+                        </div>
+                        <div class="m">
+                            <img src="./img/m_sec2_3.png" alt="1">
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="wrap">
+                            <p>우리기</p>
+                            <p>세상의 차가 간편함을 품을 때, <br>
+                                공차는 1도 1초도 어기지 않고 <br>
+                                차마다의 황금비율로 우려냅니다.
+                            </p>
+                            <img src="./img/con4_tea2.jpg" alt="tea">
+                        </div>
+                        <div class="m">
+                            <img src="./img/m_sec2_4.png" alt="1">
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div class="wrap">
+                            <p>우리기</p>
+                            <p>세상의 차가 간편함을 품을 때, <br>
+                                공차는 1도 1초도 어기지 않고 <br>
+                                차마다의 황금비율로 우려냅니다.
+                            </p>
+                            <img src="./img/con4_tea2.jpg" alt="tea">
+                        </div>
+                        <div class="m">
+                            <img src="./img/m_sec2_5.png" alt="1">
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+        <section class="sec3">
+            <div class="inner">
+                <div class="con5">
+                    <h3><strong>꿀조합</strong> 음료추천</h3>
+                    <ul>
+                        <li>
+                            <div><img src="./img/black_bubble.png" alt="black_bubble" class="shape1"></div>
+                            <p>블랙 버블티</p>
+                            <p>자세히 보기</p>
+                            <i class="fas fa-plus-circle"></i>
+
+                        </li>
+                        <li>
+                            <div><img src="./img/season-drink.png" alt="season-drink" class="shape2"></div>
+                            <p>딸기 초코 쿠키 스무디</p>
+                            <p>자세히 보기</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </li>
+                        <li class="on">
+                            <div><img src="./img/milktea.png" alt="milktea"></div>
+                            <p>타로 밀크티</p>
+                            <p>자세히 보기</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </li>
+                        <li>
+                            <div><img src="./img/season-drink3.png" alt="season-drink3" class="shape3"></div>
+                            <p>리얼 딸기 쥬얼리 스무디</p>
+                            <p>자세히 보기</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </li>
+                        <li>
+                            <div><img src="./img/season-drink2.png" alt="season-drink2" class="shape4"></div>
+                            <p>슈크림 딸기 밀크티</p>
+                            <p>자세히 보기</p>
+                            <i class="fas fa-plus-circle"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="con5_1">
+                    <h3><strong>꿀조합</strong> 음료추천</h3>
+                    <div class="swiper con5_2">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div><img src="./img/black_bubble.png" alt="black_bubble" class="shape1"></div>
+                                <p>블랙 버블티</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <div><img src="./img/season-drink.png" alt="black_bubble" class="shape1"></div>
+                                <p>딸기 초코 쿠키 스무디</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <div><img src="./img/milktea.png" alt="black_bubble" class="shape1"></div>
+                                <p>타로 밀크티</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <div><img src="./img/season-drink3.png" alt="black_bubble" class="shape1"></div>
+                                <p>리얼 딸기 쥬얼리 스무디</p>
+                            </li>
+                            <li class="swiper-slide">
+                                <div><img src="./img/season-drink2.png" alt="black_bubble" class="shape1"></div>
+                                <p>슈크림 딸기 밀크티</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con6">
+                    <h3><strong>공차주문</strong> 하는법</h3>
+                    <div class="card_list">
+                        <figure class="card">
+                            <div class="front">
+                                <p>Step1</p>
+                                <p>취향에 맞게 <br>
+                                    공차의 음료를 고르세요.
+                                </p>
+                                <div><img src="./img/fsd.png" alt="tea"></div>
+                            </div>
+                            <div class="back"></div>
+                        </figure>
+                        <figure class="card">
+                            <div class="front">
+                                <p>Step2</p>
+                                <p>6가지 토핑 중 <br>
+                                    원하는 토핑을 선택하세요.
+                                </p>
+                                <div><img src="./img/PER.png" alt="per"></div>
+                            </div>
+                            <div class="back"></div>
+                        </figure>
+                        <figure class="card">
+                            <div class="front">
+                                <p>Step3</p>
+                                <p>당도와 얼음량을<br>
+                                    원하시는 만큼 조절하세요.
+                                </p>
+                                <div><img src="./img/ice.png" alt="ice"></div>
+                            </div>
+                            <div class="back"></div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="con7">
+                    <h3><strong>공차</strong> 소식</h3>
+                    <div class="con7_1">
+                        <ul class="notice">
+                            <li>
+                                <p>공차 코리아 '딸기 신메뉴 3종'출시</p>
+                                <p>2022년 1월 13일</p>
+                            </li>
+                            <li>
+                                <p>공차 일부메뉴 가격인상 안내</p>
+                                <p>2021년 12월 20일</p>
+                            </li>
+                            <li>
+                                <p>패션브랜드 오아이오아이와 함께 맴버십 e-프리퀀시 프로모션 전개</p>
+                                <p>2021년 11월 18일</p>
+                            </li>
+                            <li>
+                                <p>공차 음료 영양정보</p>
+                                <p>2021년 1월 13일</p>
+                            </li>
+                            <li>
+                                <p>공차 멤버십 App 개인정보 이관 안내</p>
+                                <p>2021년 01월 04일</p>
+                            </li>
+                        </ul>
+                        <div class="search">
+                            <div>
+                                <i class="fas fa-store"></i> &nbsp;
+                                <a href="#">매장찾기</a>
+                            </div>
+                            <div>
+                                <i class="fas fa-user"></i> &nbsp;
+                                <a href="#">맴버십</a>
+                            </div>
+                            <div>
+                                <i class="fas fa-headphones-alt"></i> &nbsp;
+                                <a href="#">고객센터</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec4">
+            <div class="swiper con7">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <img src="./img/banner.jpg" alt="banner">
+                    </li>
+                    <li class="swiper-slide">
+                        <img src="./img/banner.jpg" alt="banner">
+                    </li>
+                    <li class="swiper-slide">
+                        <img src="./img/banner.jpg" alt="banner">
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <footer>
+            <div class="ft_logo">
+                <p>Gong Cha</p>
+                <div><img src="./img/ft_logo.png" alt="logo"></div>
+            </div>
+            <div class="ft_notice">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">제휴제안</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">이메일 무단수집 거부</a></li>
+                </ul>
+                <p>서울 종로구 종로 47(공평동, 7층) <br>
+                    ㈜공차코리아 대표이사 김의열사업자등록번호 214-88-84534 <br>
+                    통신판매번호: 2020-서울종로-0966</p>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".con2", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+
+        var swiper = new Swiper(".con4", {
+            slidesPerView: 1.2,
+            spaceBetween: 60,
+            centeredSlides: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                600: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 60,
+                },
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 62,
+                },
+                1200: {
+                    slidesPerView: 3.4,
+                    spaceBetween: 62,
+                },
+
+                1400: {
+                    slidesPerView: 4,
+                    spaceBetween: 70,
+                },
+
+            },
+        });
+
+        var swiper = new Swiper(".con7", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+        var swiper2 = new Swiper(".con2", {
+            navigation: {
+                nextEl: ".s1_next",
+                prevEl: ".s1_prev",
+            },
+        });
+        var swiper = new Swiper(".con5_2", {});
+    </script>
+</body>
+
+</html>
